@@ -1,0 +1,62 @@
+/* 3)Skills bölməsi */
+#skills {
+    padding: 8rem 5rem;
+
+    background-color: #fff;
+}
+
+.skillscontent {
+    display: flex;
+}
+
+.skillsleft, .skillsright {
+    width: 50%;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skillsleft {
+    padding: 0 2rem 0 0;
+}
+
+.skillname {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 0 2rem 0;
+}
+
+.skillpercent {
+    color: #6c757d;
+    font-weight: 300;
+}
+
+.skillone, .skilltwo {
+    margin-bottom: 6rem;
+}
+
+.barcontainer {
+    width: 100%;
+    
+    background-color: #ddd;
+    border-radius: 2rem;
+}
+
+.skill {
+    padding: 0.2rem 0;
+}
+
+.cr {
+    background-color: crimson;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.html {width: 80%;}
+
+.css {width: 60%;}
+
+.js, .csharp, .cplus {width: 10%;}
+
+.gt {width: 20%;}

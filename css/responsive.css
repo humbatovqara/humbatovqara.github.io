@@ -1,0 +1,399 @@
+@media screen and (max-width: 425px) {
+    /* Ümumi elemetlərə məxsus xüsusiyyətlət, bütün elementlər */
+    /* Əsaslar */
+    body {
+        width: 94%;
+        padding: 2rem 0;
+    }
+
+    main {
+        display: none;
+    }
+
+
+
+    /* Sağ tərəf , 73% , Scrool */
+    /* ortaqlar */
+    #home, #about, #skills, #counter, #education, #experience,  #portfolio, #contact, #mobhome {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    #contact {
+        margin-bottom: 0rem;
+    }
+
+    .bottomline {
+        margin-bottom: 5rem;
+    }
+
+    #mobhome {
+        display: block;
+    }
+
+
+
+    /* Mobile versiyadakı main bölməsi */
+    #mobhome {
+        display: block;
+        display: flex;
+        align-items: center;
+        padding: .5rem 2.1rem;
+    }
+
+    #mobhome > a .myPhoto {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #mobhome > a:nth-child(2) {
+        border-radius: 50%;
+        margin-left: 1.5rem;
+    }
+
+    #mobhome > h2 {
+        font-size: 2.2rem;
+    }
+
+    #mobhome h2 a::after {font-size: 2.5rem;}
+
+
+
+    /* 1)Home bölməsi , fixed photo , Kiçik haqqımda olan */
+    #home {
+        padding: 13.7rem 0;
+    }
+
+    .home-text {
+        width: 80%;
+    }
+
+    #home h1 {
+        font-size: 2.7rem;
+        letter-spacing: 0rem;
+    }
+
+    #home a {
+        font-size: 1.1rem;
+    }
+
+    #home .homebtn1 {
+        margin-right: .2rem;
+    }
+
+
+
+    /* 2)About bölməsi, özüm haqqında məlumat - tarix, email ... */
+    #about {
+        padding: 6.7rem 5rem;
+    }
+
+    .aboutcontent {
+        flex-direction: column;
+    }
+
+    .abouttext {
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+
+    .aboutall {
+        flex-direction: column;
+    }
+
+    .aboutall p {
+        padding: 0.5rem;
+    }
+
+    .aboutbuttons a {
+        font-size: 1rem;
+    }
+
+
+    /* 3)Skills bölməsi */
+    #skills {
+        padding: 7rem 5rem;
+    }
+
+    .skillscontent {
+        flex-direction: column;
+    }
+
+    .skillsleft, .skillsright {
+        width: 100%;
+        padding: 0;
+    }    
+
+    .skillname {
+        margin: 0 0 1rem 0;
+    }
+
+    .skillone, .skilltwo, .skillthree {
+        margin-bottom: 4rem;
+    }
+
+    .lastskill {
+        margin-bottom: 0;
+    }
+
+
+
+    /* 4)Counter - sayğac bölməsi */
+    .countercontent {
+        flex-direction: column;
+    }
+
+    .counterone {
+        margin-bottom: 2.5rem;
+    }
+
+    .contentleft, .contentright {
+        width: 97%;
+        display: flex;
+    }
+
+
+
+    /* 5)Education */
+    #education {
+        padding: 5rem;
+    }
+
+    #education > .educontent {
+        flex-direction: column;
+    }
+
+    .eduone, .edutwo, .eduthree {
+        width: 100%;
+        min-height: 32rem;
+    }
+
+    .eduone, .edutwo {
+        margin-bottom: 7rem;
+    }
+
+
+
+    /* 6)Experience */
+    .timeline::before {
+        left: .5rem;
+    }    
+
+    .timecircle::before {
+        left: 0;
+    }
+    
+    .time {
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .timeline1, .timeline2, .timeline3 {
+        display: block;
+        padding: 5.5rem 0;
+        margin-left: 1.5rem;
+    }
+
+    .time h3 {
+        margin-top: -.3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .content h3 {
+        padding-bottom: .5rem;
+    }
+
+
+
+    /* 7)Portfolio */
+    div[class^="item"] {
+        width: 97%;
+    }
+
+    .portfolio-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    /* 8)Contact bölməsi */
+    #contact {
+        padding: 4rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .c-left {
+        margin-bottom: 1.5rem;
+    }
+
+    .c-right .form {
+        margin: 0;
+    }
+
+    .form > input {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1052px) {
+    /* Ümumi elemetlərə məxsus xüsusiyyətlət, bütün elementlər */
+    /* Əsaslar */
+    body {
+        width: 94%;
+        padding: 4rem 0;
+    }
+    
+    main {
+        display: none;
+    }
+    
+    
+    
+    /* Sağ tərəf , 73% , Scrool */
+    /* ortaqlar */
+    #home, #about, #skills, #counter, #education, #experience,  #portfolio, #contact, #mobhome {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    
+    #contact {
+        margin-bottom: 0rem;
+    }
+    
+    .bottomline {
+        margin-bottom: 7rem;
+    }
+    
+    #mobhome {
+        display: block;
+    }
+    
+    /* Mobile versiyadakı main bölməsi */
+    #mobhome {
+        display: block;
+        display: flex;
+        align-items: center;
+        padding: .5rem 2.1rem;
+    }
+    
+    #mobhome > a .myPhoto {
+        width: 5.5rem;
+        height: 5.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    #mobhome > a:nth-child(2) {
+        border-radius: 50%;
+        margin-left: 1.5rem;
+    }
+    
+    #mobhome > h2 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #mobhome h2 a::after {font-size: 2.5rem;}
+    
+    
+    /* Mobile versiyadakı main bölməsi */
+    #mobhome {
+        display: block;
+        display: flex;
+        align-items: center;
+        padding: .5rem 2.1rem;
+    }
+    
+    #mobhome > a .myPhoto {
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    #mobhome > a:nth-child(2) {
+        border-radius: 50%;
+        margin-left: 1.5rem;
+    }
+    
+    #mobhome > h2 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #mobhome h2 a::after {font-size: 2.5rem;}
+
+
+
+    /* 6)Experience */
+    .timeline::before {
+        left: .5rem;
+    }    
+
+    .timecircle::before {
+        left: 0;
+    }
+    
+    .time {
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .timeline1, .timeline2, .timeline3 {
+        display: block;
+        padding: 5.5rem 0;
+        margin-left: 1.5rem;
+    }
+
+    .time h3 {
+        margin-top: -.3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .content h3 {
+        padding-bottom: .5rem;
+    }
+
+
+
+
+    /* 7)Portfolio */
+    div[class^="item"] {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 1052px) and (max-width: 1293px) {
+    .timeline::before {
+        left: .5rem;
+    }    
+
+    .timecircle::before {
+        left: 0;
+    }
+    
+    .time {
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .timeline1, .timeline2, .timeline3 {
+        display: block;
+        padding: 5.5rem 0;
+        margin-left: 1.5rem;
+    }
+
+    .time h3 {
+        margin-top: -.3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .content h3 {
+        padding-bottom: .5rem;
+    }
+}

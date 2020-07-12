@@ -1,0 +1,113 @@
+/* 1)Home bölməsi , fixed photo , Kiçik haqqımda olan */
+#home {
+    background: linear-gradient(to left bottom,rgba(74,99,231,0.8),rgba(63,90,231,0.8)), url(../photo/cover-photo.jpg) no-repeat;
+    background-position: center bottom;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+
+    padding: 15.7rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text {
+    width: 70%;
+}
+
+#home h1 {
+    color: #fff;
+    font-size: 5.2rem;
+    letter-spacing: 0.1rem;
+}
+
+#home h1::after {font-size: 4rem;}
+
+#home p {
+    padding: 0.5rem 0 3rem 0;
+
+    color: #fff;
+
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+#home a {
+    display: inline-block;
+    padding: 1rem 2rem;
+
+    color: #fff;
+    font-size: 1.7rem;
+
+    border-radius: 4rem;
+}
+
+#home a i {
+    margin-right: 1rem;
+}
+
+#home .homebtn1 {
+    border: 0.12rem solid crimson;
+    margin-right: .8rem;
+    background-color: crimson;
+}
+
+#home .homebtn2 {
+    border: 0.12rem solid #fff;
+    background-color: transparent;
+}
+
+#home .homebtn1:hover {
+    animation-name: anim_homebtn1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    -webkit-animation-name: anim_homebtn1;
+    -moz-animation-name: anim_homebtn1;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -o-animation-direction: alternate;
+}
+
+#home .homebtn2:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#home .homebtn1, #home .homebtn2 {
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -o-transition: all .6s;
+}
+
+#home .homebtn1:hover, #home .homebtn2:hover {
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+
+    box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+    -webkit-box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+    -moz-box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+    -o-box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5x);
+    -o-transform: translateY(-5x);
+}

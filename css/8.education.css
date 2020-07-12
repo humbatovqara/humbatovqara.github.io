@@ -1,0 +1,128 @@
+#education {
+    background-color: #fff;
+
+    padding: 6.1rem 5rem;
+}
+
+.educontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.eduone, .edutwo, .eduthree {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center;*/
+    text-align: center;
+
+    width: 32%;
+    /*padding: 2rem 4rem;*/
+
+    border: 1px solid #e6e6e6;
+    border-radius: 1rem;
+}
+
+.edutwo {
+    margin: -2rem 0;
+
+    background-color: #4a63e7;
+    color: #fff;
+}
+
+.eduiconone, .eduicontwo, .eduiconthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+
+    width: 5rem;
+    height: 5rem;
+
+    bottom: 2.5rem;
+
+    background-color: #fff;
+
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+}
+
+.eduiconone i, .eduicontwo i, .eduiconthree i{
+    font-size: 2.5rem;    
+    color: crimson;
+}
+
+.eduone > span, .edutwo > span, .eduthree > span {
+    align-self: center;
+    
+    padding: .2rem 1rem;
+    margin-bottom: 2.5rem;
+    
+    color: #fff;
+    background-color: crimson;
+
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+.eduname {
+    display: flex;
+    flex-direction: column;
+    min-height: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.eduname p:first-child {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.eduname p:last-child {
+    font-size: 1.3rem;
+}
+
+.edubutton {
+    display: inline-block;
+    align-self: center;
+    padding: .5rem 1.5rem;
+
+    background-color: crimson;
+    color: rgba(255, 255, 255, .9);
+
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+
+    border-radius: 5rem;
+    
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.edubutton:hover {
+    background-color: #4a63e7;
+    border-color: #4a63e7;
+    box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+    transform: translateY(-5px);
+    animation-name: btnanime;
+    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    -moz-animation-duration: .5s;
+    -o-animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.eduone .edubutton, .eduthree .edubutton {
+    margin-bottom: 2rem;
+}
+
+.edutwo .eduicontwo {
+    margin-bottom: 1.9rem;
+}

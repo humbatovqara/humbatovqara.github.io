@@ -1,0 +1,303 @@
+/* Mobile kimi */
+@media screen and (max-width: 657px) {
+    .aboutbuttons {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutbtn1, .aboutbtn2 {
+        width: 60%;
+    }
+
+    .aboutbtn1 {
+        margin: 0 0 1rem 0;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    body {
+        width: 94%;
+    }
+
+    #home, #counter {
+        background-attachment: initial;
+    }
+
+    .bottomline {
+        margin-bottom: 6rem;
+    }
+
+    #about {
+        padding: 6.7rem 5rem;
+    }
+
+    .aboutcontent {
+        flex-direction: column;
+    }
+
+    .abouttext {
+        margin-top: 1rem;
+        padding: 0 1rem;
+    }
+
+    .aboutall {
+        flex-direction: column;
+    }
+
+    .aboutall p {
+        padding: 0.5rem;
+    }
+
+    #skills {
+        padding: 7rem 5rem;
+    }
+
+    .skillscontent {
+        flex-direction: column;
+    }
+
+    .skillsleft, .skillsright {
+        width: 100%;
+        padding: 0;
+    }    
+
+    .skillname {
+        margin: 0 0 1rem 0;
+    }
+
+    .skillone, .skilltwo, .skillthree {
+        margin-bottom: 4rem;
+    }
+
+    .lastskill {
+        margin-bottom: 0;
+    }
+
+    #education {
+        padding: 5rem;
+    }
+
+    #education > .educontent {
+        flex-direction: column;
+    }
+
+    .eduone, .edutwo, .eduthree {
+        width: 100%;
+        min-height: 32rem;
+    }
+
+    .eduone, .edutwo {
+        margin-bottom: 7rem;
+    }
+
+    div[class^="item"] {
+        width: 46%;
+    }
+
+    #contact {
+        padding: 4rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .c-left {
+        margin-bottom: 1.5rem;
+    }
+
+    .c-right .form {
+        margin: 0;
+    }
+
+    .form > input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    body {
+        padding: 3rem 0;
+    }
+
+    #home, #about, #skills, #counter, #education, #experience,  #portfolio, #contact, #mobhome {
+        margin-bottom: 2.5rem;
+    }
+
+    #home h1 {
+        font-size: 4rem;
+    }
+
+    #mobhome > a .myPhoto {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    #mobhome > h2 {
+        font-size: 2rem;
+    }
+
+    .countercontent {
+        flex-direction: column;
+    }
+
+    .counterone {
+        margin-bottom: 2.5rem;
+    }
+
+    .contentleft, .contentright {
+        width: 97%;
+        display: flex;
+    }
+
+    div[class^="item"] {
+        width: 100%;
+    }
+
+    #contact {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    #home .homebtn1 {
+        margin: 0 0 .5rem 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    body {
+        padding: 2.5rem 0;
+    }
+
+    #home h1 {
+        font-size: 3.5rem;
+    }
+
+    #home a {
+        font-size: 1.5rem;
+    }
+
+    #about {
+        padding: 6rem 5rem;
+    }
+
+    #about > hr {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        padding: 2rem 0;
+    }
+
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home, #about, #skills, #counter, #education, #experience,  #portfolio, #contact, #mobhome {
+        margin-bottom: 2.5rem;
+    }
+
+    #contact {
+        margin-bottom: 0;
+    }
+
+    #home a {
+        font-size: 1.4rem;
+    }
+
+    .aboutbuttons a {
+        font-size: 1.2rem;
+    }
+
+    #skills {
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .portfolio-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutbtn1, .aboutbtn2 {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #home h1 {
+        font-size: 2.7rem;
+    }
+
+    #home a {
+        font-size: 1.1rem;
+    }
+
+    #home {
+        padding: 11.7rem 0;
+    }
+
+    #about {
+        padding: 5rem 3rem;
+    }
+
+    .aboutbuttons a {
+        font-size: 1.1rem;
+    }
+
+    #portfolio, #contact, #experience {
+        padding: 4rem;
+    }
+
+    .portfolio-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        padding: 3rem 0;
+    }
+
+    #home, #about, #skills, #counter, #education, #experience,  #portfolio, #contact, #mobhome {
+        margin-bottom: 2rem;
+    }
+
+    #contact {
+        margin-bottom: 0rem;
+    }
+
+    #mobhome > h2 {
+        font-size: 1.6rem;
+    }
+
+    .home-text {
+        width: 90%;
+    }
+
+    #home h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0rem;
+    }
+
+    #about {
+        padding: 4.7rem 2rem;
+    }
+
+    .aboutbuttons a {
+        font-size: .8rem;
+    }
+
+    #skills {
+        padding: 5.5rem 2.5rem;
+    }
+
+    #education, #experience, #portfolio, #contact {
+        padding: 4rem 3rem;
+    }
+}

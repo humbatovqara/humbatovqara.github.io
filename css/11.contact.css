@@ -1,0 +1,98 @@
+/* Ümumi #contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+
+    padding: 5rem;
+    margin-bottom: 0;
+}
+
+#contact > .container {
+    display: flex;
+}
+
+/* .container left */
+.container > .c-left {
+    display: flex;
+    flex: 50%;
+}
+
+.c-left > .contact-icon {
+    display: flex;
+    flex-direction: column;
+    flex: 15%;
+}
+
+.contact-icon span {
+    margin-bottom: 5rem;
+}
+
+.contact-icon span i {
+    font-size: 2rem;
+    color: crimson;
+}
+
+.c-left > .contact-info {
+    flex: 100%;
+}
+
+.contact-info > h3 {
+    font-size: 1.6rem;
+}
+
+.contact-info > p {
+    margin-bottom: 2.5rem;
+    font-size: 1.3rem;
+    opacity: .8;
+}
+
+/* .container right */
+.contaner > .c-right > .form {
+    margin-left: 4rem;
+}
+
+.c-right > .form input, textarea {
+    padding: .8rem 2rem;
+    margin-bottom: 1.7rem;
+    border-radius: 5rem;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.form input:nth-child(1), .form input:nth-child(2) {
+    width: 48%;
+}
+
+.form textarea {
+    border-radius: 2.5rem;
+    resize: none;
+}
+
+.longinput {
+    width: 100%;
+}
+
+input[placeholder="Your name"] {
+    margin-right: 1.4rem;
+}
+
+.form input:focus, textarea:focus {
+    border-color: crimson;
+    outline: 0;
+}
+
+.submitform {
+    padding: .8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    background-color: crimson;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.form .submitform:hover {
+    background-color: #4a63e7;
+    border-color: #4a63e7;
+    box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+}

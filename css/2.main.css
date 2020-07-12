@@ -1,0 +1,134 @@
+/* #map - Sol hissənin daxili qruplaşdırıcı */
+/* ortaqlar */
+#map {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+
+    /*min-height: 55.9rem;*/
+
+    padding: 2rem 0;
+    position: fixed;
+    border-radius: 2rem;
+    background-color: #4a63e7;
+}
+
+.map-top > h2, .map-top > h3, .map-center, #map small {
+    margin: 0 5.3rem 0 2.5rem;
+}
+
+
+
+/* class map-top - Qruplaşdırıcının üst hissəsi, şəkil, ad, ixtisas */
+#map > .map-top {
+    display: flex;
+    flex-direction: column;
+}
+
+#exitmap {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    align-self: flex-end;
+    margin-right: 2rem;
+}
+
+#map .map-top > a {
+    align-self: center;
+    border-radius: 50%;
+}
+
+.myPhoto {
+    width: 9.5rem;
+    height: 9.5rem;
+
+    border-radius: 50%;
+    background: #4a63e7 url(../photo/profil-photo.jpg) no-repeat top;
+    background-size: cover;
+}
+
+.map-top > h2{
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.map-top > h2 a::after {
+    font-size: 2.5rem;
+}
+
+.map-top > h3 {
+    cursor: context-menu;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;    
+}
+
+
+
+/* class map-center - Qruplaşdırıcının orta hissəsi, menü, xəritə */
+.map-center {
+    display: flex;
+    padding: 3rem 0;
+    /*height: 31rem;*/
+}
+
+.map-center > ul {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.map-center > ul li {
+    margin: 1.25rem 0;
+}
+
+.map-center ul li a {
+    display: inline-block;
+    transition: all .3s;
+}
+
+.map-center ul li a:hover{
+    transform: translateX(5px);
+}
+
+.map-center > ul li i {
+    margin-right: 2rem;
+}
+
+
+
+/* class map-bottom - Qruplaşdırıcının aşağı hissəsi, sosial media və müəllif hüquqları */
+.map-bottom > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map-bottom ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: crimson;
+
+    transition: all .5s;
+}
+
+.map-bottom ul li a:hover {
+    color: crimson;
+    background-color: #fff;
+}
+
+.map-bottom ul li i{
+    font-size: 1.5rem;
+}
+
+#map small {
+    margin-top: .9rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}

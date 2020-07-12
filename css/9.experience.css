@@ -1,0 +1,75 @@
+#experience {
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: crimson;
+    top: 0;
+    bottom: 0;
+    left: 28%;
+}
+
+.timecircle::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 21.1rem;
+    border: 2px solid crimson;    
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.timeline-start::before, .timeline-end::before {
+    background-color: crimson;
+}
+
+.timeline-start::before {
+    top: -12px;
+}
+
+.timeline-end::before {
+    bottom: 0px;
+}
+
+.time {
+    width: 30%;
+}
+
+.timeline1, .timeline2, .timeline3 {
+    display: flex;
+    padding: 6rem 0;
+}
+
+.time h3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    opacity: .8;
+}
+
+.content {
+    width: 70%;
+    padding-left: 2rem;
+}
+
+.content h3 {
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+.content p {
+    font-size: 1.3rem;
+    opacity: .8;
+}

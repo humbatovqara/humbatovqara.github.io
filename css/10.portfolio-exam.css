@@ -1,0 +1,160 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.portfolio-menu {
+    margin-bottom: 3rem;
+}
+
+.portfolio-menu a {
+    color: rgba(0, 0, 0, .6);
+
+    padding: .8rem 1.5rem;
+    margin-right: 1rem;
+    
+    font-size: 1.4rem;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.portfolio-menu a:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.portfolio-menu .active {
+    color: rgba(255, 255, 255, 1);
+    background-color: crimson;
+    border-radius: 7rem;
+}
+
+.portfolio-menu .active:hover {
+    color: rgba(255, 255, 255, .7);
+}
+
+.portfolio-item {
+    width: 100%;
+}
+
+div[class^="item"] {
+    width: 31%;
+    height: 17rem;
+
+    margin: .8rem;
+    display: inline-block;
+
+    border-radius: 1rem;
+    background-color: rgb(243, 243, 243);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.item1 .overlay, .item2 .overlay,
+.item3 .overlay, .item4 .overlay,
+.item5 .overlay, .item6 .overlay  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    border-radius: 1rem;
+    background-color: crimson;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h3 {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
+
+.item1:hover .overlay, .item2:hover .overlay,
+.item3:hover .overlay, .item4:hover .overlay,
+.item5:hover .overlay, .item6:hover .overlay {
+    opacity: .9;
+}
+
+.portfolio-item {
+    margin-bottom: 3rem;
+}
+
+.portfolio-item .item1, .portfolio-item .item2, .portfolio-item .item3,
+.portfolio-item .item4, .portfolio-item .item5, .portfolio-item .item6 {
+    position: relative;
+}
+
+.portfolio-item .item1 {
+    background-image: url(../photo/portfolio-item/wedding-page.PNG);
+}
+
+.portfolio-item .item2 {
+    background-image: url(../photo/portfolio-item/chesslearn-page.PNG);
+}
+
+.portfolio-item .item3 {
+    background-image: url(../photo/portfolio-item/blog-page.PNG);
+}
+
+.portfolio-item .item4 {
+    background-image: url(../photo/portfolio-item/blog-page2.PNG);
+}
+
+.portfolio-item .item5 {
+    background-image: url(../photo/portfolio-item/colorlib.PNG);
+}
+
+.portfolio-item .item6 {
+    background-image: url(../photo/portfolio-item/darkblack.PNG);
+}
+
+.portbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.button {
+    position: absolute;
+    color: #fff;
+    background-color: crimson;
+
+    padding: .8rem 1.5rem;
+    
+    border-radius: 5rem;
+    font-size: 1.2rem;
+
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: #4a63e7;
+    border-color: #4a63e7;
+    box-shadow: 0 3px 15px rgba(59, 59, 59, 0.7);
+
+    animation-name: btnanime;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}

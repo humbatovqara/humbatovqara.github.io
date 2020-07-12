@@ -1,0 +1,86 @@
+/* Ümumi elemetlərə məxsus xüsusiyyətlət, bütün elementlər */
+/* Əsaslar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/ /* ikinci font növü kimi istifadə olunur */
+    
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 96%;
+    max-width: 1240px;
+
+    margin: auto;
+    padding: 5rem 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: #f8f9fa;
+}
+
+main {
+    display: flex;
+    flex: 27%;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    display: static;
+    flex: 73%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/* Əlavələr */
+/* Ümumi etiketlər */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Səhifədə olan bütün box-shadow-lar */
+#map, #home, #about, #skills,
+#counter, #education, #experience,
+#portfolio, #contact, #mobhome {
+    box-shadow: 0 0 15px 2px rgba(104, 104, 104, 0.3);
+    -webkit-box-shadow-: 0 0 15px 2px rgba(104, 104, 104, 0.3);
+    -moz-box-shadow-: 0 0 15px 2px rgba(104, 104, 104, 0.3);
+    -o-box-shadow-: 0 0 15px 2px rgba(104, 104, 104, 0.3);
+}
+
+/* Selection text */
+.map-top h2 a::selection, .map-top h3::selection,
+.map-center ul li a::selection, #map small::selection,
+#home h1::selection, #home p::selection,
+#counter p[class^="counter"]::selection {
+    background-color: crimson;
+}
+
+/* Sözlərdən sonrakı qırmızı nöqtə */
+.map-top h2 a::after, #home h1::after, #mobhome h2 a::after {
+    content: ".";
+    color: crimson;
+}
+
+@keyframes anim_homebtn1 {
+    from {background-color:crimson; border-color: crimson;}
+    to{background-color:#1338ec; border-color: #1338ec;}
+}

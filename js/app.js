@@ -1,27 +1,23 @@
-var x = document.querySelector("main");
-var y = document.querySelector("section");
-var i = document.getElementById("exitmap");
+const currentYear = document.querySelector(".currentYear");
+const myAge = document.querySelector(".myAge");
 
-function myFunction() {
-    if (x.style.display === "block") {
-        x.style.display = "none";
-        y.style.display = "block";
-    } else {
-        x.style.display = "block";
-        y.style.display = "none";
-        i.style.display = "block";
+window.addEventListener('DOMContentLoaded', function () {
+    getCurrentYear();
+    getMyAge();
+});
 
-        x.style.display = "flex";
-        x.style.justifyContent = "center";
-        x.style.alignItems = "center";
-    }
+// Cari tarixin ilini verən funksiya
+function getCurrentYear() {
+    let year = new Date();
+    currentYear.textContent = year.getFullYear();
 }
 
-function myFunction2() {
-    if (y.style.display == "none") {
-        y.style.display = "block";
-        x.style.display = "none";
-    } else {
-        x.style.display = "none";
-    }
-}
+// Yaşımı göstərən funksiya
+function getMyAge() {
+    let current = new Date();
+    let myBD = new Date('2000, 07, 23');
+    let differTime = Math.abs(current - myBD);
+    let differFullTime = Math.ceil(differTime / (1000 * 60 * 60 * 24 * 365.25) - 1); 
+
+    myAge.textContent = differFullTime;
+};

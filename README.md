@@ -19,6 +19,7 @@ Here is a working live demo : https://humbatovqara.github.io/
 - CSS3
   - Flexible Box
   - Responsive desing only Media Query
+  - Keyframes
 - JavaScript (Basics)
 <br />
 

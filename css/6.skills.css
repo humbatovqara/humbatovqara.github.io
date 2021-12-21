@@ -53,10 +53,14 @@
     border-bottom-left-radius: 2rem;
 }
 
-.html {width: 80%;}
+.html {width: 90%;}
 
-.css {width: 60%;}
+.css {width: 90%;}
 
-.js, .csharp, .cplus {width: 10%;}
+.js {width: 90%;}
 
-.gt {width: 20%;}
+.csharp, .cplus {width: 50%;}
+
+.cplus {width: 20%;}
+
+.gt {width: 70%;}
